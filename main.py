@@ -1,33 +1,16 @@
-# My first python display program
 
-print("i love KareKare")
-print("Its really good")
+name = "Bro"
+age = 21
+gpa = 2.1
+student = True
 
-# My name
-first_name  = "Christian"
-food = "KareKare"
-email = "test@gmail.com"
+print(type(name))
 
-# int
-age = 25
+age = float(age)
 
-#float
+print(age)
 
-price = 10.99
+gpa = int(gpa)
 
-
-print(f"Hello {first_name}")
-
-print(f"You age is {age}")
-
-print(f"Price is  {price}")
-
-#Boolean
-
-is_student = False
-
-if is_student:
-    print("Yes youre a student")
-else:
-    print("Your not a student")
+print(gpa)
 
