@@ -1,16 +1,26 @@
+#name = input("enter your name: ")
 
-name = "Bro"
-age = 21
-gpa = 2.1
-student = True
+#age = input("enter your age: ")
 
-print(type(name))
+#age= int(age) +1
+#print(f"Hello mr {name} and your age is {age}")
 
-age = float(age)
 
-print(age)
+"""
+length = float(input("enter length: "))
 
-gpa = int(gpa)
+width = float(input("enter width: "))
 
-print(gpa)
+compute =length * width
+print(f"The areas is {compute} cm2")
 
+"""
+
+item = input("Enter name: ")
+
+price = float(input("Enter Price "))
+
+quantity = int(input("Enter Quantity: "))
+
+compute = price * quantity
+print(f"Your order {item} total price is ${compute}")
