@@ -1,56 +1,39 @@
-
-"""
-friends = 5
-
-#friends = friends + 1
-
-#friends += 1
-
-friends -= 1
-
-
-print(friends)
-"""
-
-"""
-build in function
-x = 3.14
-y = 4
-z = 5
-
-#result = round(x)
-
-#result = abs(y)
-#result = pow(4,3)
-#result = max(x,y,z)
-#result = min(x,y,z)
-
-print(result)
-
-"""
-
-# import math
 #
-# x =9.1
-# # print(math.pi)
-# # print(math.e)
+# age = int(input("Enter you age:"))
 #
-# # result = math.sqrt(x)
-#
-# # result = math.ceil(x)
-# result = math.floor(x)
-# print(result)
-import math
-# radius = float(input("Input the radius of a circle: "))
-# circumference = 2 * math.pi *radius
-#
-# print(f"the circumference is: {round(circumference,2)} cm")
-# radius = float(input("Input the radius of a circle: "))
-# area = math.pi * pow(radius,2)
-# print(f"The are of a circle is: {round(area,2)} cm2")
+# if age > 100 :
+#     print("You're age is over 100")
+# elif age < 0:
+#     print("You're age is not allowed")
+# elif age >= 18:
+#     print("You're are now qualified")
+# else:
+#     print("You're are not qualified you must be 18 up")
 
-a = float(input("Input the length of side a: "))
-b = float(input("Input the length of side b: "))
+# response = input("Would you like food? (Y/N)")
+#
+# if response == "Y":
+#     print("Have some food!")
+# else:
+#     print("No food for you")
 
-compute = math.sqrt(pow(a,2)+ pow(b,2))
-print(f"Side of C {compute}")
+# name = input("Enter your name: ")
+#
+# if name == "":
+#     print("You didnt type anything")
+# else:
+#     print(f"Hello {name}")
+
+# for_sale = False
+#
+# if for_sale:
+#     print("This item is for sale")
+# else:
+#     print("This item is not for sale")
+
+online = True
+
+if online:
+    print("This user is online")
+else:
+    print("This user is offline")
