@@ -1,13 +1,34 @@
+#
+#
+# name = input("Enter your full name: ")
+# phone = input("Enter your phone #: ")
+#
+# # result =len(name)
+# # result  = name.find("o")
+# #result  = name.rfind("s") # last occur of the letter we want to find
+# # result  = name.capitalize()
+# # result  = name.upper()
+# # result  = name.lower()
+# result  = name.isdigit()
+# # result  = name.isalpha()
+# # result  = phone.count("-")
+# result  = phone.replace("-"," ")
+#
+#
+#
+# print(result)
 
 
-num = 5
-a = 6
-b= 7
-age = 13
-result = "Even" if num % 2 == 0 else "Odd"
-max_num = a if a> b else b
-min_num = a if a< b else b
-status = "Adult" if age >=18 else "Child"
+username = input("Enter your username: ")
 
-
-print(status)
+length = len(username) +1
+if length < 12:
+    if username.find(" ") == -1:
+        if username.isalpha():
+            print("Successful Login")
+        else:
+            print("Dont add number on username")
+    else:
+        print("Dont put some space on username")
+else:
+    print("More than 12 character")
