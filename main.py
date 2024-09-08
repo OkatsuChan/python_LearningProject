@@ -1,15 +1,13 @@
 
 
-temp = 25
+num = 5
+a = 6
+b= 7
+age = 13
+result = "Even" if num % 2 == 0 else "Odd"
+max_num = a if a> b else b
+min_num = a if a< b else b
+status = "Adult" if age >=18 else "Child"
 
-sunny = True
 
-if temp  <= 0 or temp >= 30:
-    print("The temperature is bad")
-else:
-    print("The temperature is good")
-
-if not sunny:
-    print("Its is cloudy outside")
-else:
-    print("It is sunny outside")
+print(status)
