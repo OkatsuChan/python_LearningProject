@@ -1,19 +1,32 @@
-states_of_america= [
-    "Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware",
-    "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky",
-    "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi",
-    "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico",
-    "New York", "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania",
-    "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont",
-    "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"
-]
-states_of_america[0] = "test"
+# fruits = ["Apple", "Peach","Pear"]
+#
+# for fruit in fruits:
+#     print(fruit)
+#     print(fruit + " pie")
 
-states_of_america.extend(["Myland","to list land"])
-
-print(states_of_america)
-
-# states_of_america.remove("Myland")
+#loops
+# student_scores = [205,180,124,165,173,189,169,146,200]
 #
 #
-# print(states_of_america)
+# result = 0
+# # total_score = sum(student_scores)
+# # for total_score in student_scores:
+# #     result += total_score
+# #
+# # print(result)
+#
+# max_score = max(student_scores)
+# print(max_score)
+#
+# max = 0
+# for num in student_scores:
+#     if max <= num:
+#         max = num
+# print(max)
+
+#range function
+total = 0
+for number in range(1,101):
+    total += number
+
+print(total)
