@@ -4,11 +4,11 @@ import random
 
 import turtle as t
 tim = t.Turtle()
-tim.speed("fastest")
+tim.speed(5)
 screen = t.Screen()
-
 screen.colormode(255)
-tim.pensize(1)
+
+tim.pensize(20)
 
 
 
@@ -18,16 +18,16 @@ def random_color():
     b = random.randint(0, 255)
     return (r, g, b)
 
+# //tupple
 
-def draw_spiralgraph(size_of_gap):
-    for index in range(int(360/size_of_gap)):
-        tim.color(random_color())
-        tim.pencolor(random_color())
-        tim.circle(100)
-        tim.setheading(tim.heading() + size_of_gap)
+for index in range(100):
+    color = random_color()
+    tim.color(color)
+    tim.pencolor(color)
+    tim.forward(40)
+    tim.setheading(random.choice([0, 90, 180, 270]))
 
 
-draw_spiralgraph(5)
 
 
 
